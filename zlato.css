@@ -1,0 +1,182 @@
+.prvimeni a{
+    text-decoration:none;
+    font-weight:bold;
+}
+.prvimeni{
+    background-color:#212F3D;
+    height:60px;
+    position:relative;
+    display: flex;
+}
+.prvimenidesni {
+    text-align:right;
+    padding-right:80px;
+    padding-top: 10px;
+    flex-grow: 3;
+    background-color:#212F3D;
+}
+.prvimenilevi{
+    text-align:left;
+    padding-top:20px;
+    padding-left:10px;
+    flex-grow: 1;
+    background-color:#212F3D;
+    float:left;
+}
+.spajanje{
+    height:10px;
+    width: 100%;
+    background-color: #212F3D;
+}
+#pomoc{
+    color:#CACFD2;
+}
+.prvimenidesni a{
+    padding-right:15px;
+    color:#CACFD2 ;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.prvimenidesni img{
+    height: 30px;
+    width: 30px;
+    flex-grow: 1;
+    border-radius: 33%;
+}
+.prvimenidesni a:hover{
+    color:#F8C471;
+    opacity:80%;
+    font-size: 18px;
+    transition: 400ms;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+.drugimeni img{
+    padding-top: 20px;
+    width:70px;
+    height:70px;
+    margin-left: 48%;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: #212F3D;
+    font-family: monaco;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.prodaja1,.prodaja2{
+    width:80%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.prvi{
+    flex-grow: 1;
+}
+.prvi p{
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-right: 10px;
+}
+.prvi img{
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.prvi h2{
+    text-align: center;
+}
+.drugi{
+    flex-grow: 1;
+    float: left;
+    
+}
+.drugi p{
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-right: 10px;
+}
+.drugi img{
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.drugi h2{
+    text-align: center;
+}
+.treci{
+    flex-grow: 1;
+}
+.treci p{
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-right: 10px;
+}
+.treci img{
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.treci h2{
+    text-align: center;
+}
+.cetvrti p{
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    padding-right: 10px;
+}
+.cetvrti{
+    flex-grow: 1;
+    
+}
+.cetvrti img{
+    width: 70%;
+    height: 70%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.cetvrti h2{
+    text-align: center;
+}
+.naslovi{
+    text-align: center;
+    font-size: 25px;
+    color: #212F3D;
+    padding-top: 30px;
+}
+.glavnimeni{
+    height:50px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 30px;
+    width: 100%;
+}
+.glavnimeni a{
+    flex-grow:1;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family:monaco ;
+    color:#212F3D;
+    text-decoration: none;
+}
+.glavnimeni a:hover{
+    color:#F8C471;
+    font-size: 28px;
+    transition: 400ms;
+}
